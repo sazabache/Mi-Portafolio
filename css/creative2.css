@@ -1,0 +1,107 @@
+/* Inserta tu codigo CSS aqui */
+.text-center{
+	text-align: center;
+}
+.font-orange{
+	color:#F05F40;
+}
+#service{
+	padding:3% 0% 5%;
+}
+
+hr{
+	border:1px solid #F05F40;
+	width: 35px;
+}
+.items{
+	width: 65%;
+	
+	margin:0 auto;
+}
+.items h4{
+	font-size: 2.1rem;
+}
+.primero{
+	background: url(../img/portfolio/1.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.segundo{
+	background: url(../img/portfolio/2.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.tercero{
+	background: url(../img/portfolio/3.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.cuarto{
+	background: url(../img/portfolio/4.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.quinto{
+	background: url(../img/portfolio/5.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.sexto{
+	background: url(../img/portfolio/6.jpg)no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+#github {
+	background-color: #222222;
+	color:white;
+	padding:3% 0%;
+}
+#github a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 35px;
+	background-color: white;
+	color:black;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+#github p{
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+@media (max-width: 991px) { 
+	.items{
+		width: 95%;
+		margin:40px auto 20px;
+		
+	}
+	.items p{
+		margin-bottom: 40px;
+	}
+
+	.sombra{
+		background-color: rgba(240, 95, 64,0.8);
+		margin:0px -15px;
+		height: 300px;
+		color:white;
+	}
+	.sombra span{
+		color:#F5C1B4;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+	.centro{
+		position: relative;
+		top: 50%;
+		transform:translateY(-50%);
+		font-size: 1.8rem;
+	}
+}
+@media (min-width: 992px) { 
+	.sombra{
+		display: none;
+	}
+}
+

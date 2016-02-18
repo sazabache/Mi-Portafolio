@@ -8,7 +8,10 @@
     <title>Portfolio Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -20,20 +23,137 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/creative2.css" type="text/css">
 
 </head>
 
 <body>
-    <!-- Inserta tu codigo aqui -->
+   
+    <header>
+    <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="conatiner-fluid padd">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="navbar-brand">MI PORTAFOLIO</h1>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav navbar-right text-center">
+            <li>
+              <a class="hvr-bounce-to-right" href="#Home">SOBRE MI</a>
+            </li>
+            <li>
+              <a class="hvr-bounce-to-right" href="#features">SERVICIOS</a>
+            </li>
+            <li>
+              <a class="hvr-bounce-to-right" href="#portafolio">MIS TRABAJOS</a>
+            </li>
+            <li>
+              <a class="hvr-bounce-to-right" href="#price">CONTÁCTAME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <aside id="home" class="bg-img-block">
 
-    <!-- jQuery -->
+      <div class="texto text-center">
+        <h1>HOLA, MI NOMBRE ES KATY SOY CODER DE LABORATORIA</h1>
+        <hr>
+        <p>Estás interesado en desarrollar un sitio web o necesitas una frontend developer, yo te puedo ayudar<br>
+        con los diferentes servicios que brindo. </p>
+      </div>
+    <div class="mg0auto">
+      <button type="button" class="btn btn-lg text-center">CONOCE MÁS</button>
+    </div>
+    </aside>
+    <section class="section1 text-center">
+      <h3>SOBRE MI</h3>
+      <hr>
+      <p>Soy egresada de laboratoria salí con el título de Frontend developer Jr., desarrollo páginas en HTML / CSS / Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</p>
+    </section>
+    <section id="service" class="text-center">
+        <h3>SERVICIOS</h3>
+        <hr>
+        <div class="row items">
+            <div class="col-xs-12 col-md-3">
+                <i class="fa fa-diamond fa-3x font-orange"></i>
+                <h4>Desarrollo de plantillas</h4>
+                <p>Desarrollo plantillas a medida con HTML5/CSS3/JS</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="fa fa-paper-plane fa-3x font-orange"></i>
+                <h4>Campañas de Mailing</h4>
+                <p>Desarrollo de plantillas para campañas por correo</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="fa fa-newspaper-o fa-3x font-orange"></i>
+                <h4>Full websites</h4>
+                <p>Desarrollo websites completos y dinámicos</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <i class="fa fa-heart fa-3x font-orange"></i>
+                <h4>Aplicaciones Android</h4>
+                <p>Desarrollo aplicaciones Android listas para subir a la tienda</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="container-fluid">
+        <div class="row ">
+            <div class="col-md-4 primero"></div>
+            <div class="col-md-4 segundo"></div>
+            <div class="col-md-4 tercero">
+                <div class="sombra text-center">
+                    <div class="centro">
+                    <span>CATEGORIA</span>
+                    <p>Nombre proyecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 cuarto"></div>
+            <div class="col-md-4 quinto"></div>
+            <div class="col-md-4 sexto">
+                <div class="sombra text-center">
+                    <div class="centro">
+                    <span>CATEGORIA</span>
+                    <p>Nombre proyecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="text-center">
+        <p>Si quieres saber más de mi proyecto revisa mi github</p>
+        <a href="#">VER MI GITHUB!</a>
+    </section>
+    <footer class="text-center pt-5 pb-8">
+      <h3>CONTÁCTAME</h3>
+      <hr>
+      <p>¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial!, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</p>
+      <div class="col-xs-12 col-md-offset-4 col-md-2">
+        <i class="fa fa-phone"></i>
+        <p>123-456-789</p>
+
+      </div>
+       <div class="col-xs-12 col-md-2">
+        <i class="fa fa-envelope-o"></i>
+        <p class="email"> <a href="">katy@laboratoria.la</a> </p>
+
+      </div>
+    </footer>
+
+
+
+
+ 
+<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -46,6 +166,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/menu-scroll.js"></script>
 
 </body>
 

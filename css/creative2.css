@@ -47,6 +47,11 @@ hr{
 	font-weight: bold;
 	font-size: 1rem;
 }
+
+#github a:hover{
+	    background-color: #f05f40;
+    color: white;
+}
 #github p{
 	font-size: 2.4rem;
 	line-height: 1.2;

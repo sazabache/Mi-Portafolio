@@ -3039,8 +3039,11 @@ font-family: "Open Sans";
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  
   text-decoration: none;
+      color: #f05f40;
+    background-color: white;
+    border: 2px solid #f05f40;
 }
 .btn:active,
 .btn.active {
